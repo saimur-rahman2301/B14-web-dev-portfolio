@@ -1,0 +1,19 @@
+nav,
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 0px 120px 0px 0px;
+}
+
+nav h2 {
+    padding: 0px 0px 0px 150px;
+}
+
+
+nav button {
+    background-color: rgb(225, 112, 20);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
