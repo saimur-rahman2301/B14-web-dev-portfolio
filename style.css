@@ -1,19 +1,213 @@
-nav,
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.all-img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.common-btn {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 28px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.outline-btn {
+    background-color: white;
+    color: #FD6E0A;
+    padding: 18px 28px;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 28px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 40px 0;
+}
+
 nav ul {
     display: flex;
     list-style: none;
+    gap: 80px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.logo-r {
+    color: #FD6E0A;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero-root {
+    background-color: #fff8f3FF;
+}
+
+.hero-parent {
+    display: flex;
     justify-content: space-between;
-    gap: 60px;
-    padding: 0px 120px 0px 0px;
+    align-items: center;
 }
 
-nav h2 {
-    padding: 0px 0px 0px 150px;
+.hero-left-p-1 {
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 15px;
 }
 
+.hero-left-h1 {
+    font-weight: bold;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
 
-nav button {
-    background-color: rgb(225, 112, 20);
-    color: rgb(255, 255, 255);
-    padding: 10px;
+.hero-left-2 {
+    padding-top: 20px;
+}
+
+/* About Section */
+.about-root {
+    padding: 100px 0;
+}
+
+.about-parent {
+    background-color: #fff8f3FF;
+    align-items: center;
+    padding: 130px 0;
+}
+
+.about-root p {
+    line-height: 1.7;
+    padding-bottom: 28px;
+    max-width: 759px;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    color: #757575;
+}
+
+.about-info-parent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 740px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* What I Do Section */
+
+.what-i-do-root {
+    padding-bottom: 100px;
+}
+
+.what-i-do-root p {
+    line-height: 1.7;
+    padding-bottom: 28px;
+    max-width: 870px;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    color: #757575;
+}
+
+.what-i-do-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.what-i-do-cards-element {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.what-i-do-cards-element h2 {
+    text-align: left;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.what-i-do-cards-element p {
+    text-align: left;
+    color: #757575;
+    font-size: 16px;
+}
+
+/* Resume section */
+
+.resume-title {
+    margin-bottom: 80px;
+}
+
+.resume-details {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.resume-topic {
+    padding-bottom: 25px;
+}
+
+.degree {
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+.institution {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #757575;
+}
+
+.resume-info {
+    line-height: 1.7;
+    color: #757575;
+}
+
+.resume-button {
+    display: flex;
+    justify-content: center;
 }
